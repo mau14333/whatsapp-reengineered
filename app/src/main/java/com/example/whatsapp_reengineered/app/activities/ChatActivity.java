@@ -41,7 +41,7 @@ public class ChatActivity extends ActionBarActivity {
                 else{
                     Toast.makeText(getApplicationContext(), "Please enter some text!", Toast.LENGTH_SHORT).show();
                 }
-                lv_chatlog.refreshDrawableState();
+                ((ArrayAdapter<ChatMessage>)lv_chatlog.getAdapter()).notifyDataSetChanged();
             }
         });
     }
