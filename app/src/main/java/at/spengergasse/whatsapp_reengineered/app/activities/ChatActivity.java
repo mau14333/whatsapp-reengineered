@@ -1,4 +1,4 @@
-package com.example.whatsapp_reengineered.app.activities;
+package at.spengergasse.whatsapp_reengineered.app.activities;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -6,8 +6,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.*;
+import at.spengergasse.whatsapp_reengineered.sharedData.domain.ChatMessage;
 import com.example.whatsapp_reengineered.app.R;
-import com.example.whatsapp_reengineered.app.domain.ChatMessage;
 
 import java.util.ArrayList;
 

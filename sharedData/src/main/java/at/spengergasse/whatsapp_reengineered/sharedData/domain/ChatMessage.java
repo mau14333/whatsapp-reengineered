@@ -1,4 +1,4 @@
-package com.example.whatsapp_reengineered.app.domain;
+package at.spengergasse.whatsapp_reengineered.sharedData.domain;
 
 import lombok.Getter;
 import lombok.Setter;
