@@ -1,4 +1,6 @@
-include ':app'
+rootProject.name = "at.spengergasse.whatsapp_reengineered"
+
+include 'app'
 include 'server'
-include 'sharedData'
+include 'sharedData', ':whatsapp-reengineered:at:spengergasse:whatsapp_reengineered:sharedData'
 
